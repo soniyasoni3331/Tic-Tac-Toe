@@ -1,7 +1,11 @@
 :root {
-  --yellow: #ffc107;
+  --orange:  #FF6A3D;
 }
 body{
-  background-color: black;
+  background-color:  #1A2238;
   color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }

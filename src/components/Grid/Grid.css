@@ -1,3 +1,6 @@
+.gridWrapper {
+    max-width: 600px;
+}
 .grid{
     height: 600px;
     width: 600px;
@@ -8,4 +11,27 @@
 }
 .turn{
     color: white;
+}
+.reset{
+    width: 100%;
+    padding: 12px;
+    color: black;
+    font-weight: bolder;
+    background-color: #FF6A3D;
+    font-size: 20px;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 5px;
+}
+@media screen and (max-width: 600px){
+    .grid{
+        height: 380px;
+        width: 380px;
+    }
+}
+@media screen and (max-width: 400px){
+    .grid{
+        height: 280px;
+        width: 280px;
+    }
 }
