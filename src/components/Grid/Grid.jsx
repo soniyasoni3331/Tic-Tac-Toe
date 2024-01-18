@@ -31,7 +31,7 @@ function Grid({numberOfCards}) {
   function reset(){
     setboard(Array(numberOfCards).fill(""));
     setWinner(null);
-    setTurn(turn);
+    setTurn(!turn);
   }
 
   return ( 
